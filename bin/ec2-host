@@ -58,7 +58,7 @@ def main(argv):
         if opt in ("-h", "--help"):
             full_usage()
             sys.exit()
-          elif opt in ("-t", "--tag"):
+        elif opt in ("-t", "--tag"):
             tag = arg
 
     global _ec2
